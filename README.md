@@ -65,3 +65,13 @@
 4. 最新文章，最新评论的排行
 5. 按照分类，标签的一个聚类操作  
 6. 联系我页面，发送邮件
+
+
+## 六、将所有app归拢到apps文件夹下
+import sys
+sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
+
+
+## 七、评论和集成markdownfy插件
+django-contrib-comments
+django-markdownfy    
